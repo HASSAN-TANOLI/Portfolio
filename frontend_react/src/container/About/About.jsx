@@ -3,6 +3,11 @@ import "./About.scss"
 
 export const About = () => {
   return (
-    <div>About</div>
+    <div>
+    {console.log("header")}
+    <h1> {console.log("header")} </h1>
+    </div>
   )
 }
+
+export default About
